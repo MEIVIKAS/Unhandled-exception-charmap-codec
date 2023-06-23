@@ -9,6 +9,7 @@ This error occurred when I tried to import a CSV file that I had downloaded from
 
 
 Despite trying various solutions, none of them seemed to work for me. Therefore, I found a workaround by converting the problematic CSV file to a JSON file. I used the website [csvjson.com](https://csvjson.com/csv2json) to perform the conversion, but you can use any other tool or method you prefer.
+![image](https://github.com/MEIVIKAS/Unhandled-exception-charmap-codec/assets/105585314/aad4a0c9-3828-4fea-9a09-f84abc9c0942)
 
 
 The error was caused by the presence of player names in the dataset written in Latin script, which MySQL Workbench didn't handle well. Examples of affected names include "LuÃ­s Figo" and "HernÃ¡n Crespo." However, during the import process, MySQL replaced these Latin script characters with some other characters.
